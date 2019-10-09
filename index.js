@@ -10,6 +10,6 @@ app.get("/", (req, res) => {
     });
 });
 
-app.listen(5000, () => {
+app.listen(80, () => {
     console.log("Canary deployment test API started!");
 });
