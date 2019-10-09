@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/elenaek/canary-deployment-test/issues"
   },
-  "homepage": "https://github.com/elenaek/canary-deployment-test#readme"
+  "homepage": "https://github.com/elenaek/canary-deployment-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
