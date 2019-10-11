@@ -11,5 +11,5 @@ workflows:
           context: CANARY-DEPLOYMENT-TEST
           repo: $AWS_ECR_REPO_NAME
           region: AWS_DEFAULT_REGION
-          tag: latest # $CIRCLE_SHA1
+          tag: $CIRCLE_SHA1
           # nothing
