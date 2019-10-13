@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
         message: "Welcome to Canary deployment test API version 2!",
         version: "2.0",
         environment: "green"
-    });
+    }); // MOAR TESTS
 });
 
 app.listen(80, () => {
