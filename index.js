@@ -9,7 +9,6 @@ app.get("/", (req, res) => {
         version: "2.0",
         environment: "green"
     });
-    // some stuff
 });
 
 app.listen(80, () => {
