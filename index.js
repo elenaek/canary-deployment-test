@@ -3,12 +3,20 @@ const app = express();
 
 
 
+// app.get("/", (req, res) => {
+//     res.json({
+//         message: "Welcome to Canary deployment test API version 1!",
+//         version: "1.0",
+//         environment: "blue"
+//     }); // BLUE
+// });
+
 app.get("/", (req, res) => {
     res.json({
         message: "Welcome to Canary deployment test API version 2!",
         version: "2.0",
         environment: "green"
-    }); // MOAR TESTS
+    }); // GREEN
 });
 
 app.listen(80, () => {
